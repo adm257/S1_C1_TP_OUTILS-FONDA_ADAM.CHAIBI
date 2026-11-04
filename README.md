@@ -11,3 +11,5 @@ Chaque voiture :
 - garde une distance avec la voiture devant elle ;
 - ralentit si elle se rapproche trop ;
 - accélère lorsque la route se libère.
+## utilisage IA
+j'ai utiliser l'IA claude afin de me conseiller des sujet pouvant etre ineressant pour le projet et pour verifier mes import .
