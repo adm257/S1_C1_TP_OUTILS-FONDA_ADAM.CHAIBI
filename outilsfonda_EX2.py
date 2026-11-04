@@ -1,5 +1,4 @@
-#_____________________EX1.1______________________________
-
+from math import*
 def diviseurs(n):
     liste = []
     for i in range(1, n + 1):
@@ -7,9 +6,7 @@ def diviseurs(n):
             liste.append(i)
     return liste
 
-#  print(diviseurs(28))
-
-#_______________________EX2.1____________________________
+print(diviseurs(28))
 
 def pgcd_naif(a, b):
     resultat = 1
@@ -22,11 +19,10 @@ def pgcd(a, b):
     while b != 0:
         a, b = b, a % b
     return a
+    
+print(pgcd_naif(1071, 462))
+print(pgcd(1071, 462))
 
-#  print(pgcd_naif(1071, 462))
-#  print(pgcd(1071, 462))
-
-#_______________________EX3.1____________________________
 
 import time
 
@@ -44,9 +40,7 @@ def mesurer():
         fin = time.time()
         print(n, fin - debut)
 
-#  mesurer()
-
-#_______________________EX4.1____________________________
+mesurer()
 
 import time
 
@@ -67,11 +61,9 @@ def crible(n):
 
     return compteur
 
-#  debut = time.time()
-#  print(crible(100000))
-#  print(time.time() - debut)
-
-#_______________________EX5.1____________________________
+debut = time.time()
+print(crible(100000))
+print(time.time() - debut)
 
 def facteurs(n):
     liste = []
@@ -86,9 +78,7 @@ def facteurs(n):
 
     return liste
 
-#  print(facteurs(360))
-
-#_______________________EX6.1____________________________
+print(facteurs(360))
 
 import time
 
@@ -103,9 +93,8 @@ def mesurer():
         fib_recursif(n)
         print(n, time.time() - debut)
 
-#  mesurer()
+mesurer()
 
-#_______________________EX6.2____________________________
 
 def compte():
     compteur = {}
@@ -114,9 +103,8 @@ def compte():
     print(compteur[1])
     print(sum(compteur.values()))
 
-#  compte()
+compte()
 
-#_______________________EX6.3____________________________
 
 def fibonacci(n):
     a = 0
@@ -127,13 +115,12 @@ def fibonacci(n):
 
     return a
 
-#  print(fibonacci(25))
-#  print(fibonacci(10000))
-#  print(len(str(fibonacci(10000))))
+print(fibonacci(25))
+print(fibonacci(10000))
+print(len(str(fibonacci(10000))))
 
-#_______________________EX7.1____________________________
 
-# from math import*
+
 def euclide_etendu(a, b):
     if b == 0:
         return (a, 1, 0)
@@ -142,7 +129,6 @@ def euclide_etendu(a, b):
 
     return (g, v, u - (a // b) * v)
 
-#  print(euclide_etendu(1071, 462))
+print(euclide_etendu(1071, 462))
 
-#_______________________EX7.2____________________________
-# pas reussi 
+
