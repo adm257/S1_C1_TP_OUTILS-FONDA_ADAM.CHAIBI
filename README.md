@@ -2,8 +2,8 @@
 
 ## Outils-fondamentaux
 ## Organisation du dépôt
-/tp/ : Contient mes travaux pratiques de TP1 à TP6.
-/projet/ : Contient le code de mon projet .
+**/tp/ : Contient mes travaux pratiques de TP1 à TP6.**
+**/projet/ : Contient le code de mon projet .**
 Projet Puissance 4
 Pour ce projet, j'ai développé un jeu de Puissance 4 en Python. Ce projet met en œuvre ses notions mathématiques :
 
