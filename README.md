@@ -1,7 +1,7 @@
 # S1_C1_TP_OUTILS-FONDA_ADAM.CHAIBI
 
-Outils-fondamentaux
-Organisation du dépôt
+## Outils-fondamentaux
+## Organisation du dépôt
 /tp/ : Contient mes travaux pratiques de TP1 à TP6.
 /projet/ : Contient le code de mon projet .
 Projet Puissance 4
